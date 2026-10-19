@@ -1,0 +1,20 @@
+[project]
+name = "booklet"
+version = "0.1.0"
+description = "Rearrange PDF pages so they can be printed and folded as a booklet"
+readme = "README.md"
+license = "MIT"
+authors = [
+    { name = "MKM", email = "mkm@slotshaven.dk" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pypdf>=6.19.0",
+]
+
+[project.scripts]
+booklet = "booklet:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"

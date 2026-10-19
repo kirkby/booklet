@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Generated PDFs (test inputs and booklet output)
+*.pdf
+
+# Editor / OS
+*.code-workspace
+.vscode/
+.DS_Store
